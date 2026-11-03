@@ -1,0 +1,39 @@
+import { Routes } from '@angular/router';
+import { AdminAuditsComponent } from './components/AdminAuditsComponent';
+import { AdminRemindersComponent } from './components/AdminRemindersComponent';
+import { AdminStaffComponent } from './components/AdminStaffComponent';
+import { ApplyloanComponent } from './components/ApplyloanComponent';
+import { CustomerProfileComponent } from './components/CustomerProfileComponent';
+import { DashboardComponent } from './components/DashboardComponent';
+import { ForgotPasswordComponent } from './components/ForgotPasswordComponent';
+import { HeaderComponent } from './components/HeaderComponent';
+import { IndexComponent } from './components/IndexComponent';
+import { LoanAccountDetailsComponent } from './components/LoanAccountDetailsComponent';
+import { LoanSearchComponent } from './components/LoanSearchComponent';
+import { LoginComponent } from './components/LoginComponent';
+import { MfaEnrollComponent } from './components/MfaEnrollComponent';
+import { MfaComponent } from './components/MfaComponent';
+import { PayComponent } from './components/PayComponent';
+import { RegisterComponent } from './components/RegisterComponent';
+import { ResetPasswordComponent } from './components/ResetPasswordComponent';
+
+export const routes: Routes = [
+  { path: 'adminaudits', component: AdminAuditsComponent },
+  { path: 'adminreminders', component: AdminRemindersComponent },
+  { path: 'adminstaff', component: AdminStaffComponent },
+  { path: 'applyloan', component: ApplyloanComponent },
+  { path: 'customerprofile', component: CustomerProfileComponent },
+  { path: '', component: DashboardComponent },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'forgotpassword', component: ForgotPasswordComponent },
+  { path: 'header', component: HeaderComponent },
+  { path: 'index', component: IndexComponent },
+  { path: 'loanaccountdetails', component: LoanAccountDetailsComponent },
+  { path: 'loansearch', component: LoanSearchComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'mfaenroll', component: MfaEnrollComponent },
+  { path: 'mfa', component: MfaComponent },
+  { path: 'pay', component: PayComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'resetpassword', component: ResetPasswordComponent },
+];
